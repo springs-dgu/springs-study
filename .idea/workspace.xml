@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bca07444-430c-4018-be80-734960e11eae" name="Changes" comment="회원 리포지토리 인터페이스 개발">
+    <list default="true" id="bca07444-430c-4018-be80-734960e11eae" name="Changes" comment="Test코드 생성">
+      <change afterPath="$PROJECT_DIR$/예인/hello-spring/src/main/java/hello/hellospring/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/예인/hello-spring/src/test/java/hello/hellospring/service/MemberServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/예인/hello-spring/src/test/java/hello/hellospring/repository/MemoryMemberRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/예인/hello-spring/src/test/java/hello/hellospring/repository/MemoryMemberRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/예인/hello-spring/src/main/java/hello/hellospring/repository/MemeberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/예인/hello-spring/src/main/java/hello/hellospring/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/예인/hello-spring/src/main/java/hello/hellospring/repository/MemoryMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/예인/hello-spring/src/main/java/hello/hellospring/repository/MemoryMemberRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +77,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build hello-spring.executor": "Run",
+    "Gradle.MemoryMemberRepositoryTest.findAll.executor": "Run",
     "Gradle.MemoryMemberRepositoryTest.findByName.executor": "Run",
     "Gradle.MemoryMemberRepositoryTest.save.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
@@ -82,7 +86,6 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.HelloSpringApplication.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -102,6 +105,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="hello.hellospring.service" />
       <recent name="hello.hellospring.repository" />
     </key>
   </component>
@@ -194,7 +198,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711644856864</updated>
-      <workItem from="1711644857965" duration="3625000" />
+      <workItem from="1711644857965" duration="5010000" />
     </task>
     <task id="LOCAL-00001" summary="회원 리포지토리 인터페이스 개발">
       <option name="closed" value="true" />
@@ -204,14 +208,34 @@
       <option name="project" value="LOCAL" />
       <updated>1712057372573</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test코드 생성">
+      <option name="closed" value="true" />
+      <created>1712058359374</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712058359374</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="회원 리포지토리 인터페이스 개발" />
-    <option name="LAST_COMMIT_MESSAGE" value="회원 리포지토리 인터페이스 개발" />
+    <MESSAGE value="Test코드 생성" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test코드 생성" />
   </component>
 </project>

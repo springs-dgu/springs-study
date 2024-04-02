@@ -4,7 +4,7 @@ import hello.hellospring.domain.Member;
 
 import java.util.*;
 
-public class MemoryMemberRepository implements MemeberRepository{
+public class MemoryMemberRepository implements MemberRepository {
     //회원 저장 키,벨류 매핑
     private static Map<Long, Member> store =new HashMap<>();//로컬 메모리에 저장
     //sequence: 0,1,2 순으로 키값 생성
