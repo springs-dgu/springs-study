@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bca07444-430c-4018-be80-734960e11eae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/예인/hello-spring/src/main/java/hello/hellospring/domain/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/예인/hello-spring/src/main/java/hello/hellospring/repository/MemeberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/예인/hello-spring/src/main/java/hello/hellospring/repository/MemoryMemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/예인/hello-spring/src/test/java/hello/hellospring/repository/MemoryMemberRepositoryTest.java" afterDir="false" />
+    <list default="true" id="bca07444-430c-4018-be80-734960e11eae" name="Changes" comment="회원 리포지토리 인터페이스 개발">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/예인/hello-spring/src/test/java/hello/hellospring/repository/MemoryMemberRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/예인/hello-spring/src/test/java/hello/hellospring/repository/MemoryMemberRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +74,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build hello-spring.executor": "Run",
+    "Gradle.MemoryMemberRepositoryTest.findByName.executor": "Run",
+    "Gradle.MemoryMemberRepositoryTest.save.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -106,6 +105,87 @@
       <recent name="hello.hellospring.repository" />
     </key>
   </component>
+  <component name="RunManager" selected="Gradle.MemoryMemberRepositoryTest.findAll">
+    <configuration name="MemoryMemberRepositoryTest.findAll" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/예인/hello-spring" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.hellospring.repository.MemoryMemberRepositoryTest.findAll&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemoryMemberRepositoryTest.findByName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/예인/hello-spring" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.hellospring.repository.MemoryMemberRepositoryTest.findByName&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemoryMemberRepositoryTest.save" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/예인/hello-spring" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.hellospring.repository.MemoryMemberRepositoryTest.save&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MemoryMemberRepositoryTest.findAll" />
+        <item itemvalue="Gradle.MemoryMemberRepositoryTest.findByName" />
+        <item itemvalue="Gradle.MemoryMemberRepositoryTest.save" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -114,11 +194,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711644856864</updated>
-      <workItem from="1711644857965" duration="2844000" />
+      <workItem from="1711644857965" duration="3625000" />
     </task>
+    <task id="LOCAL-00001" summary="회원 리포지토리 인터페이스 개발">
+      <option name="closed" value="true" />
+      <created>1712057372573</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712057372573</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="회원 리포지토리 인터페이스 개발" />
+    <option name="LAST_COMMIT_MESSAGE" value="회원 리포지토리 인터페이스 개발" />
   </component>
 </project>
